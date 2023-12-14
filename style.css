@@ -1,0 +1,143 @@
+
+/* header section designing start here*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.header-color{
+    background-color: aqua;
+}
+.container{
+    max-width: 1000px;
+    background-color: #e4f9;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 70px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}.riad{
+    color: red;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #111999;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: #111999;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:red;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto ;
+    border-bottom: none;
+}
+/* header section designing end here*/
+
+/* ---------------------
+Personal Section Start here
+-------------------------*/
+/* #personal-information{
+
+} */
+.content{
+    margin-bottom: 30px;
+}
+.p-color{
+    color: #111999;
+}
+.left-side{
+    width: 30%;
+    float: left;
+}
+.right-side{
+    width: 70%;
+    float: left;
+    color:white;
+    font-weight: bold;
+}
+.common-horizontal{
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto ;
+    border-bottom: none;
+}
+
+
+/* ---------------------
+education Section Start here
+-------------------------*/
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-left{
+    float: right;
+    width: 45%;
+}
+
+.edu-template-left a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.edu-template-right a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.edu-template-left a:hover{
+    text-decoration: underline;
+    color:red;
+}
+.edu-template-right a:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+/* ---------------------
+education Section Start here
+-------------------------*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
+.bottom-container a:hover{
+    text-decoration: underline;
+    color:red;
+}
